@@ -221,4 +221,4 @@ rasa visualize
 
 Output of the `rasa visualize`
 
-![Dialogue Flow](CAPTURE.PNG)
+![Dialogue Flow](Capture.PNG)
