@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'Hey! How are you?' anytime the user challenges
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say 'I am PlaceBot, I suggest the attraction and sight seeing spots nearby your location and tells about the weather for the given location' anytime user ask about the work of user
+  steps:
+  - intent: bot_help_topic
+  - action: utter_bot_help_topic

@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-location",
+      "2": "I-location",
+      "3": "L-location",
+      "4": "U-location",
+      "5": "B-location_weather",
+      "6": "I-location_weather",
+      "7": "L-location_weather",
+      "8": "U-location_weather",
+      "9": "B-radius",
+      "10": "I-radius",
+      "11": "L-radius",
+      "12": "U-radius",
+      "13": "B-type_of_places",
+      "14": "I-type_of_places",
+      "15": "L-type_of_places",
+      "16": "U-type_of_places",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-location": 1,
+      "I-location": 2,
+      "L-location": 3,
+      "U-location": 4,
+      "B-location_weather": 5,
+      "I-location_weather": 6,
+      "L-location_weather": 7,
+      "U-location_weather": 8,
+      "B-radius": 9,
+      "I-radius": 10,
+      "L-radius": 11,
+      "U-radius": 12,
+      "B-type_of_places": 13,
+      "I-type_of_places": 14,
+      "L-type_of_places": 15,
+      "U-type_of_places": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

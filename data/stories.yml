@@ -1,0 +1,157 @@
+version: "3.1"
+
+stories:
+
+- story: Places_Suggestion{"location":"London", "radius":"5000", "types_of_places":"sights", "location_weather":"London"}
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_help_topic
+  - action: utter_bot_help_topic
+  - intent: Places_Suggestion
+    entities:
+    - location: "London"
+  - slot_was_set:
+    - location: "London"
+  - action: utter_ask_places_type
+  - intent: Places_Type
+    entities:
+    - type_of_places: "sights"
+  - slot_was_set:
+    - type_of_places: "sights"
+  - action: utter_ask_radius
+  - intent: radius_request
+    entities:
+    - radius: "5000"
+  - slot_was_set:
+    - radius: "5000"
+  - action: utter_places
+  - action: action_get_places
+  - action: utter_ask_for_weather
+  - intent: Weather_for_location
+    entities:
+    - location_weather: "London"
+  - slot_was_set:
+    - location_weather: "London"
+  - action: utter_getting_weather
+  - action: action_get_weather
+  - action: utter_ask_feedback
+  - intent: affirm
+  - action: utter_submit
+  - intent: affirm
+  - action: action_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Places_Suggestion_2{"location":"London", "radius":"5000", "types_of_places":"sights", "location_weather":"London"}
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Places_Suggestion
+    entities:
+    - location: "London"
+  - slot_was_set:
+    - location: "London"
+  - action: utter_ask_places_type
+  - intent: Places_Type
+    entities:
+    - type_of_places: "sights"
+  - slot_was_set:
+    - type_of_places: "sights"
+  - action: utter_ask_radius
+  - intent: radius_request
+    entities:
+    - radius: "5000"
+  - slot_was_set:
+    - radius: "5000"
+  - action: utter_places
+  - action: action_get_places
+  - action: utter_ask_for_weather
+  - intent: Weather_for_location
+    entities:
+    - location_weather: "London"
+  - slot_was_set:
+    - location_weather: "London"
+  - action: utter_getting_weather
+  - action: action_get_weather
+  - action: utter_ask_feedback
+  - intent: affirm
+  - action: utter_submit
+  - intent: affirm
+  - action: action_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Places_Suggestion{"location":"Los Angeles", "radius":"5000", "types_of_places":"attraction", "location_weather":"San Jose"}
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Places_Suggestion
+    entities:
+    - location: "Los Angeles"
+  - slot_was_set:
+    - location: "Los Angeles"
+  - action: utter_ask_places_type
+  - intent: Places_Type
+    entities:
+    - type_of_places: "attraction"
+  - slot_was_set:
+    - type_of_places: "attraction"
+  - action: utter_ask_radius
+  - intent: radius_request
+    entities:
+    - radius: "5000"
+  - slot_was_set:
+    - radius: "5000"
+  - action: utter_places
+  - action: action_get_places
+  - action: utter_ask_for_weather
+  - intent: Weather_for_location
+    entities:
+    - location_weather: "San Jose"
+  - slot_was_set:
+    - location_weather: "San Jose"
+  - action: utter_getting_weather
+  - action: action_get_weather
+  - action: utter_ask_feedback
+  - intent: affirm
+  - action: utter_submit
+  - intent: affirm
+  - action: action_feedback
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Places_Suggestion{"location":"Los Angeles", "radius":"5000", "types_of_places":"attraction", "location_weather":"San Jose"}
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Weather_for_location
+    entities:
+    - location_weather: "San Jose"
+  - slot_was_set:
+    - location_weather: "San Jose"
+  - action: utter_getting_weather
+  - action: action_get_weather
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Places_Suggestion{"location":"Los Angeles", "radius":"5000", "types_of_places":"attraction", "location_weather":"San Jose"}
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_help_topic
+  - action: utter_bot_help_topic
+  - intent: Weather_for_location
+    entities:
+    - location_weather: "San Jose"
+  - slot_was_set:
+    - location_weather: "San Jose"
+  - action: utter_getting_weather
+  - action: action_get_weather
+  - action: utter_ask_feedback
+  - intent: affirm
+  - action: utter_submit
+  - intent: affirm
+  - action: action_feedback  
+  - intent: goodbye
+  - action: utter_goodbye

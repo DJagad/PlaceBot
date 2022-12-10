@@ -1,0 +1,125 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - Hi there
+    - good morning
+    - good evening
+    - Hi
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: affirm
+  examples: |
+    - yes
+    - Yes
+    - Y
+    - Indeed
+    - Of Course
+    - That sounds good
+
+- intent: bot_help_topic
+  examples:  |
+    - Can you tell about yourself?
+    - What work do you help with?
+    - What do you do?
+    - What can you help me with?
+    - What work you do?
+    - What work are you engage with?
+    - Can you tell about the usage of this chatbot?
+    - What you help users with?
+    
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Places_Suggestion
+  examples: | 
+    - Can you suggest places nearby to [San Jose](location)?
+    - Can you suggest nice places to see in [San Francisco](location)?
+    - Will it be possible to suggest some good places in [Los Angeles](location)?
+    - Can you please tell me places to watch in [San Diego](location)?
+    - Can you please recommend some good places in [Washington, D.C.](location)?
+    - Can you suggest places nearby to [New York](location)?
+    - Can you suggest nice places to see in [Chicago](location)?
+    - Will it be possible to suggest some good places in [Texas](location)?
+    - Can you please tell me places to watch in [Boston](location)?
+    - Recommend some good places in [San Jose](location)?
+    - I want to know about the places in [San Francisco](location)?
+    - Suggest the places in [San Francisco](location)?
+
+- intent: Places_Type
+  examples: |
+    - I want to check for [sights](type_of_places).
+    - Check for [attraction](type_of_places) places.
+    - Show [sights](type_of_places) places.
+    - I want suggestion on [attraction](type_of_places) places.
+    - Give tip on [attraction](type_of_places) places.
+
+- intent: Weather_for_location
+  examples: | 
+    - Can you show the weather for the [San Jose](location_weather)? 
+    - What is the weather for the [San Franscisco](location_weather)?
+    - Weather for [Los Angeles](location_weather)?
+    - Today's weather in [San Diego](location_weather)?
+    - [Washington, D.C.](location_weather) weather?
+    - Tell me weather of [Chicago](location_weather)?
+    - Can you tell me weather of [Texas](location_weather)?
+    - Tell me weather of [New York](location_weather)?
+    - Today's weather in [Boston](location_weather)?
+  
+- intent: radius_request
+  examples: |
+    - Use a search radius of [5](radius) meters.
+    - [2000](radius)
+    - [Ninety Thousand](radius)
+    - [fifty](radius) meters
+    - Search within [20000](radius)
+    - Search around [1000](radius)
+    - Give me places [200](radius) meters from here
+    - Look for places [50000](radius) meters from me.
+    - [20000] ms.
+    - Use a radius of [8000](radius) meters.
+    - About (30000)[radius] meters.
+
+- synonym: sights
+  examples: |
+    - good view points
+    - Good View Points
+    - View Points
+    - View points
+    - View Spots
+    - good view spots
+    - sightseeing spots
+
+- synonym: attraction
+  examples: |
+    - picturesqe
+    - panoramic 
+    - favoured
+    - picture-postcard

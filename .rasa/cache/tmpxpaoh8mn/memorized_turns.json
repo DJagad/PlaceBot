@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVATmJyanF8cGl6empxSCVtbWxAHbYUzM=": "utter_places",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVATmJyanF8cGl6empxSCVxLmoAKyNKONiAcuGcW4=": "action_get_places",
+    "eJytjkEKgCAQRa/iATqBpwhaRojIRwQz0bGNePcs21vRbh68efw5l4FlH7ALqchsjrPcDuHkCs5usCYSXHVTRKiOcRWJMx0AKp1GIkIQTf1W6KwYrVSIYkpaI57ms0X+evshd4MGvWkuB0d+kZI=": "utter_did_that_help",
+    "eJytjkEKwyAQRa/iAXoCT1HoMpRBko8RrBX9ZiO5e0zNPqFkNw/ePP5Q14eqMWERM9J9g1a1HxLMB1od4F0mQnNLRmqOCw2plU0A15NGIZGkq/8VTlY8vRmR5VWsRd7Na4vi7+2G3AEWvK/ZJ05uEs6GMsPHS9X3BrvGsp4=": "action_listen",
+    "eJytkVEKAiEURbfiAlqBqwj6jHjYeHEEU9FnEOLec3J+YyL888J5hwNeazuJGhOepBa2wUtRx4O8ekCKfTibGb6zJSN1xvo+WQqTAG4HjsKMRAP9z3BQcXZqQaZLMQZ5I38rip+zCbp9GPA850jUVhOvimmFi/NKv35nCPr+Qmu3Nz01zUQ=": "utter_goodbye",
+    "eJytkVEKwyAQRK/iAXoCT1HoZymLjYMRrIquhRJy95rqb0go/u3A28fA3Jf1IpaY8CY1sQ1eiqUd5NULUvTgbGb4ypaMVBnra2QpTAJ4PXAUZiRq6H+GgxZXpyZkuhVjkDfyXKP4exug68GAxzlbRW018ayYZrg4rununCHo5wcnB+3wvuXxBQuR5/o=": "action_listen",
+    "eJytkEEKAyEMRa/iAXoCT1HoootSgji/KlgVjd3I3L1OnW2ZUtzlw8/LI7e2nkRLGS9Sml0MUrQxUFBPSLEH7woj9G4tyL3jQo8shckArweMyoxMo/of4cDi7JVGoUs1BmVr/maUPmsTcHsw4HnMobi4hdgqJguf5pl+e+QVim0/+4iZfNRqIO9vy8XSiQ==": "utter_getting_weather",
+    "eJytkEEKAyEMRa/iAXoCT1HoootSQnBSFayKxnYhc/c6dbZlpLjLh+/Li7e6nkSNiV6Aim3wUtQ+gMcnSbEHZzOTb92SKbWO9S2yFDoR8XrAKMyUoFf/IxxYnB0qynApWlPemmNG8ftsAm4PmngesysudgE2yGDIxXmmvz7ySsimrX2EBC4oHBdtt7P1Gt6dMIq+fwDn4fXc": "action_get_weather",
+    "eJytkEEOAiEMRa/CATwBpzBx4cKYpmEqkCAQKLogc3cZmYUbM6Nh1598Xh+91Pkgakz0AFRsg5ei9gE83kmKNTibmXzrlkypdaxvkaXQiYjnDUZhpgS9+h9hw+LoUFGGU9Ga8tLcZxTfzwbg1qCJxzG74mQnYIMMhlwcZ/rtkGdCNm3tLSRwQeF+0fZ3tl7DsxPGoD/u+iP3+gI77hfW": "utter_did_that_help",
+    "eJytkDEOAiEQRa/CATwBpzCxsDBmMmFHIEEgMGhB9u6ysoWFZjeGjp98Ho9/qfNB1JjoAajYBi9F7QfweCcp1uBsZvKtWzKl1rG+RZZCJyKeNxiFmRL06n+EDYujQ0UZTkVryktzn1F8XxuAW4MmHsfsipOdgA0yGHJxnOmvIc+EbNqzt5DABYX7Rdvf2XoNz04Yg/7YdSh317bfwdcXdyY6MQ==": "action_listen",
+    "eJytk0EOwiAQRa/CATxBT2HiwoUxE6RfSoJAYKoxDXcXpQs3TRtlxySfx5ufcJryTkwh4k5SsfGuE1M9kJM3dGIerEkMV7JjQiwZ48rIndAR4LzCGJkRqUZ/I6xY7K1USHQYtUZ6J7cZhc+1Brh50OB2zKrYm554kEwDbGhnulTkEZKH8uzVR7Jeye2iZXc2TtOjEtqgv3ptyt3U7R/Ci7/F+/7yRM7nFwjYVNc=": "utter_goodbye",
+    "eJytk0EOwiAQRa/CATwBpzBx4cKYCZYvJUFoYKoxTe8uShdumhJlxySfx5ufcJrmnZiGiDupjm3wUkzlQF7dIMUyOJsYPmfHhJgz1ueRpTAR4HmDMTIjUon+Rtiw2DvVIdFhNAbpnawzGj7XGuCWwYDbMYuitpq4V0w93NDOdK3IIxT3+dlriORCp+pF8+5svaFHIbRBf/XalFvV7R/Cq78lBH15orLRJbxOOb8A52hvjQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAV4amJJRlAK9Lyi+Jz8pMTQYpra2MBdEpUgg==": "utter_getting_weather",
+    "eJydjkEKgzAURK+SA/QEuUgXIp8gowbiT/mO7SJ496ak+4i7GXi8maGcD1dehreEiTGrd6UF0bDBu39JcSe0sscOq0zUWundYgDPjuMgYdLQe4bOiycC1zoxZ5OUp/CDL54CGXWRTzNcVY9fwUZ31Q==": "action_get_weather",
+    "eJytjkEKwzAMBL/iB+QF/kgPoQgTNqkhlYuySQ8mf6+Kc09betPAMNq+7l2oD8MmaWAuGkNth2i6I4YD5rwQ6u66wNzJ6sgYJgO4nzRWEiZN/a1wsuKCxJu/GIvJXIb0lj8cBTLrJM9W+E/6AG9/272+AMBXmcA=": "utter_did_that_help",
+    "eJytjkEKgzAQRa+SA3iCXKQLKcOgUxOIExm/7SJ496bEvVLczYPHm9+XvXNlMXkTD4hZvSvtIOVZvDsgxRWi1d1WsepErQjvJhPBftLYADFq6n+FkxUPYYT64pWNUh74J18cJUDUiT6tcE/6gNq+t9smj3EkBAYFScvV8PMLKJu8Gw==": "action_listen",
+    "eJytkUEKwyAUBa/iAXoCL9JFKR8bXxPBajAvLUW8ew1mW1KKOx8M8we85HJSeU54ihnoYtAqt4cE84BW+/BuIUJl1wWpMi7USa3GBLAcOFYSSRr6n+Gg4gzDqZ64xyQ+DmaDf4wC6cIor2boo95Hdff1tmTrrHAylAl+7hr89ZNjtLc3Srl+AEJW1sE=": "utter_goodbye",
+    "eJytkUEKwyAQRa/iAXoCL9JFKcM0TqNgNZifliK5ew26DQnF3Xx4vPnM3PJ6UXlK8iYe4GLQKteBAr9Eqxa8myGhsMssqTAulAitxiSC9cCxAJKoov8ZDlpchWHLimdM5OPAG3yylAAujPSphj7qFoq7r7dWNs4QLIOs+Klr4d0nx2geXzl50QbvW+4/qP7xdw==": "action_listen"
+  }
+}

@@ -1,0 +1,125 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - goodbye
+  - bot_help_topic
+  - bot_challenge
+  - Places_Suggestion
+  - Places_Type
+  - radius_request
+  - Weather_for_location
+
+entities:
+  - location
+  - radius
+  - type_of_places
+  - location_weather
+
+slots:
+  location:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: location
+  radius:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: radius
+  type_of_places:
+    type: categorical
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: type_of_places
+      intent: Places_Type
+    values:
+    - sights
+    - attraction
+  location_weather:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: location_weather
+  
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_bot_help_topic:
+  - text: "I am PlaceBot, I suggest the attraction and sight seeing spots nearby your location and tells about the weather for the given location"
+
+  utter_iamabot:
+  - text: "I am a PlaceBot, powered by Rasa."
+
+  utter_getting_weather:
+  - text: "Ok, getting weather of {location_weather}..."
+
+  utter_welcome:
+  - text: "Your Welcome"
+
+  utter_places:
+  - text: "Ok, {type_of_places} places to watch nearby the {location}...." 
+
+  utter_places_info:
+  - text: "Ok, information of the {location}....."
+  
+  utter_did_that_help:
+  - text: "Is this good?"
+
+  utter_happy:
+  - text: "Are you happy?"
+
+  utter_ask_feedback:
+  - text: "Please provide the feedback for the PlaceBot"
+
+  utter_submit:
+  - text: "These are the values that you provided [To store this values, press Y/Yes]: \n Location:- {location} \n Types_of_place:- {type_of_places} \n Radius:- {radius} \n Weather_Location:- {location_weather} \n "
+
+  utter_ask_places_type:
+  - text: "Can you please specifiy the type of tourist places looking for?\n 
+  [As of now we can show two types of Tourist places :- (Sight Seeing and Attraction Places)]\n
+  1. Sight Seeing Places \n
+  2. Attraction Places \n" 
+
+  utter_ask_radius:
+  - text: "Can you please specify the radius (in meters)?"
+
+  utter_ask_for_weather:
+  - text: "Do you want to know about the weather?"
+
+  utter_feedback:
+  - text: "Thanks for your feedback."
+
+actions:
+  - action_get_weather
+  - action_get_places
+  - action_feedback
+  - utter_ask_for_weather
+  - utter_ask_radius
+  - utter_ask_places_type
+  - utter_happy
+  - utter_ask_feedback
+  - utter_submit
+  - utter_did_that_help
+  - utter_places_info
+  - utter_places
+  - utter_welcome
+  - utter_getting_weather
+  - utter_iamabot
+  - utter_bot_help_topic
+  - utter_greet
+  - utter_goodbye
+  - utter_feedback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
